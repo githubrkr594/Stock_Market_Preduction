@@ -1,14 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Mar 28 23:38:04 2019
-@author: Rupesh
-"""
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Mar 28 15:23:18 2019
-
-@author: Rupesh
-"""
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -149,7 +138,6 @@ pred_SARIMA.plot()
 pred_SARIMA.plot()
 
 error_by_SARIMA = sqrt(mean_squared_error(test.Count, pred.SARIMA))
-
 
 
 pred_AR = AR_result.predict(start=960,end=981)
