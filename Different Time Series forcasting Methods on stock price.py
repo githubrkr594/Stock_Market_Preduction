@@ -1,14 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Mar 28 23:38:04 2019
-@author: Rupesh
-"""
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Mar 28 15:23:18 2019
 
-@author: Rupesh
-"""
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -168,9 +158,6 @@ plt.ylabel('Stock')
 plt.suptitle("Compairing all the Models", fontsize=20)
 plt.legend()
 plt.show()
-# multiple line plot
-
-
 
 
 
