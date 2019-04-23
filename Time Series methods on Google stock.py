@@ -156,9 +156,6 @@ plt.ylabel('Stock')
 plt.suptitle("Compairing all the Models", fontsize=20)
 plt.legend()
 plt.show()
-# multiple line plot
-
-
 
 
 
