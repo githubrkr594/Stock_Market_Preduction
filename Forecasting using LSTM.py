@@ -68,9 +68,8 @@ testPredict = model.predict(testX)
 #trainScore = math.sqrt(mean_squared_error(trainY[0], trainPredict[:,0]))
 trainScore  =numpy.sqrt(numpy.mean((trainY[0]-trainPredict[:,0])**2))
 
-#print('Train Score: %.2f RMSE' % (trainScore))
+
 testScore =  numpy.sqrt(numpy.mean((testY[0]-testPredict[:,0])**2))
-#print('Test Score: %.2f RMSE' % (testScore))
 
 # shift train predictions for plotting
 trainPredictPlot = numpy.empty_like(dataset)
