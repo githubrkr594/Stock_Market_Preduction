@@ -24,7 +24,6 @@ testing_data=testing_data.drop(['index'],axis=1)
 
 #plotting 
 training_data.set_index('date')
-
 training_data.plot(figsize=(10,5))
 plt.xlabel('index')
 plt.ylabel('closing_price')
