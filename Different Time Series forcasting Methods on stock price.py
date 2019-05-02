@@ -31,7 +31,6 @@ plt.ylabel('closing_price')
 plt.legend()
 
 #compairing mean & dev by graph
-
 training_data['close'].rolling(5).mean().plot(label='Data Mean')
 training_data['close'].rolling(5).std().plot(label='Data Std')
 plt.legend()
@@ -54,7 +53,6 @@ def adf_check(df):
 adf_check(training_data['close'])
 
 #Differencing in case of non stationary
-
 training_data['1st Diff'] = train['close'] - train['close'].shift(1)
 training_data['1st Diff'].dropna().plot()
 training_data =training_data['1st Diff'].dropna()
